@@ -1,4 +1,4 @@
 FROM nginx
 WORKDIR /usr/share/nginx/html/
-COPY /Calculator .
+COPY . .
 EXPOSE 80
